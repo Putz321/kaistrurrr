@@ -312,7 +312,7 @@
         `| Status      : Belum Dibayar`;
 
       document.getElementById("waText").textContent = detail;
-      document.getElementById("total").textContent = selectedPrice ? `𝐓𝐨𝐭𝐚𝐥: 𝐑𝐩 𝟎 ${selectedPrice.toLocaleString()}` : '𝐓𝐨𝐭𝐚𝐥: 𝐑𝐩 𝟎';
+      document.getElementById("total").textContent = selectedPrice ? `𝐓𝐨𝐭𝐚𝐥: 𝐑𝐩 ${selectedPrice.toLocaleString()}` : '𝐓𝐨𝐭𝐚𝐥: 𝐑𝐩 𝟎';
       const msg = encodeURIComponent(detail);
       document.getElementById("waBtn").href = "https://wa.me/6283875911893?text=" + msg;
     }
@@ -341,4 +341,4 @@
     });
   </script>
 </body>
-</html>
+  </html>
